@@ -1,0 +1,6 @@
+{
+  "example_app_header": "Welcome {{username}}, to the sisu boilerplate project!",
+  "example_app_components_hint": "Once you push this project into the sisu repo, you will have access to the shared components",
+  "example_submit_btn": "Submit",
+  "example_name_label": "Enter a name to test the redux flow (check the developer console to see how the app state changes)"
+}

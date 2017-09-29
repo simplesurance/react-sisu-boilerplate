@@ -1,0 +1,11 @@
+# deploy vars
+
+# deploy webapp
+
+webapp_deploy: true
+
+# deploy vhost
+
+vhost_deploy_name: 'user'
+vhost_deploy_url: "{{ (env == 'staging')|ternary('user-' + sisu_environment|default(env),'user') }}.{{ domain|default('simplesurance.de') }}"
+vhost_config_template: "{{ app_path }}/../shared/nginx/vhost.conf.j2"
