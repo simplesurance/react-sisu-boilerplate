@@ -2,6 +2,8 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
+  // Change this for production to 'production'
+  mode: 'development',
   entry: ['babel-polyfill', './src'],
   module: {
     rules: [
