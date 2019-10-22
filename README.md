@@ -1,3 +1,5 @@
+### NOTE: BEFORE USING THIS PLEASE UPGRADE BABEL SINCE THE CURRENT VERSION HAS SOME SECURITY ISSUES
+
 Quick start:
 
 1. Install yarn [yarn](https://yarnpkg.com/en/docs/install) globally
